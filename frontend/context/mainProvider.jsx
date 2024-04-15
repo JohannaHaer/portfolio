@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-export const mainContext = useContext()
+import React, { createContext, useContext } from 'react'
+export const mainContext = createContext()
 
 const MainProvider = ({children}) => {
     return (
